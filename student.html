@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>學生自學手冊 v3｜未來永續方案 1</title>
+  <meta name="description" content="學生自學手冊：從有感抱怨出發，走過九個任務，做一件在竹北實中真正落地的事。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📗</text></svg>">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="header-logo">
+        <span class="logo-icon">🌱</span>
+        <div>
+          <div class="logo-title">未來永續方案 1</div>
+          <div class="logo-sub">竹北實中｜高一校必專題</div>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">首頁</a>
+        <a href="teacher.html" class="nav-link">教師手冊</a>
+        <a href="student.html" class="nav-link active">學生手冊</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero" style="--hero-end:#1e5a3a">
+  <div class="container">
+    <div class="page-hero-inner">
+      <div class="page-hero-icon">📗</div>
+      <div>
+        <div class="page-hero-badge">學生自學手冊 v3 ｜ 校準實踐版</div>
+        <h1 class="page-hero-title">學生自學手冊</h1>
+        <div class="page-hero-sub">從有感抱怨出發，做一件在竹北實中真正落地的事｜跨學期 18 堂</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="content-layout">
+
+    <!-- TOC -->
+    <aside class="toc">
+      <div class="toc-title">手冊目錄</div>
+      <a href="#letter" class="toc-link">給你的一封信</a>
+      <a href="#map"    class="toc-link">課程地圖</a>
+      <a href="#ai"     class="toc-link">AI 學習公約</a>
+      <a href="#task1"  class="toc-link">任務 1 心態預備</a>
+      <a href="#task2"  class="toc-link">任務 2 田野調查</a>
+      <a href="#task3"  class="toc-link">任務 3 問題定義</a>
+      <a href="#task4"  class="toc-link">任務 4 發散創意</a>
+      <a href="#task5"  class="toc-link">任務 5 Prototype</a>
+      <a href="#task6"  class="toc-link">任務 6 測試與回饋</a>
+      <a href="#bridge" class="toc-link">☃ 寒假橋接</a>
+      <a href="#task7"  class="toc-link">任務 7 迭代深化</a>
+      <a href="#task8"  class="toc-link">任務 8 真實落地</a>
+      <a href="#task9"  class="toc-link">任務 9 學習遷移</a>
+      <a href="#final"  class="toc-link">學年末反思</a>
+    </aside>
+
+    <!-- BODY -->
+    <main class="content-body">
+
+      <!-- 封面語 -->
+      <div id="letter" class="companion-box" style="--accent:#1A3557;--bg:#E8EEF5">
+        <div class="companion-label">給翻開這本手冊的你</div>
+        <div class="companion-text">這是你在竹北實中第一次做真正的專題課程。不是考試、不是抄筆記，是真的找一個問題、做一個方案、讓它在你們的學校落地。
+
+這份手冊不是叫你照著走的說明書。它比較像一個陪你思考的旅伴——你卡住的時候翻開它，你做完某個任務的時候用它記錄。不需要從頭讀到尾，找到你現在需要的那一頁，從那裡開始。
+
+我們相信你們可以做到。</div>
+      </div>
+
+      <!-- 課程地圖 -->
+      <h2 class="part-title" id="map">🗺 課程地圖：你們這學年要走的路</h2>
+      <p>這門課跨上下學期，分成九個任務。每個任務都有一個真實的目標——不是為了交作業，是為了在學年結束時，你們的方案可以在竹北實中被真正用到。</p>
+      <p style="margin-top:12px">在整個過程中，你們會扮演不同的角色：</p>
+
+      <div class="role-cards" style="grid-template-columns:repeat(5,1fr);margin-top:16px">
+        <div class="role-card" style="--accent:#1A7A7A"><div class="role-icon">🎙</div><div class="role-name">Storyteller</div><div class="role-zh">說故事者</div><div class="role-desc">說出真實的校園觀察</div></div>
+        <div class="role-card" style="--accent:#E87A2E"><div class="role-icon">🧭</div><div class="role-name">Sensemaker</div><div class="role-zh">意義建構者</div><div class="role-desc">找出問題背後的邏輯</div></div>
+        <div class="role-card" style="--accent:#2E6FAD"><div class="role-icon">🎨</div><div class="role-name">Designer</div><div class="role-zh">設計者</div><div class="role-desc">設計並做出 prototype</div></div>
+        <div class="role-card" style="--accent:#6B4FAD"><div class="role-icon">🔗</div><div class="role-name">Connector</div><div class="role-zh">連結者</div><div class="role-desc">連結使用者與回饋</div></div>
+        <div class="role-card" style="--accent:#3A8A4A"><div class="role-icon">⚡</div><div class="role-name">Changemaker</div><div class="role-zh">改變者</div><div class="role-desc">推動方案真實落地</div></div>
+      </div>
+
+      <table class="action-table" style="--accent:#1A3557;margin-top:20px">
+        <thead><tr><th>#</th><th>學期</th><th>任務</th><th>你要做到的事</th><th>角色</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>上學期</td><td><a href="#task1" style="color:var(--teal);font-weight:700">任務 1</a></td><td>說出一個真實的「不方便」，不說假話</td><td>🎙</td></tr>
+          <tr><td>2</td><td></td><td><a href="#task2" style="color:var(--teal);font-weight:700">任務 2</a></td><td>走出教室，帶回真實觀察，不只靠猜測</td><td>🧭</td></tr>
+          <tr><td>3</td><td></td><td><a href="#task3" style="color:var(--teal);font-weight:700">任務 3</a></td><td>用一句話說清楚「我們要解決什麼」</td><td>🧭→🎨</td></tr>
+          <tr><td>4</td><td></td><td><a href="#task4" style="color:var(--teal);font-weight:700">任務 4</a></td><td>每個人提出至少 5 個想法，不自我審查</td><td>🎨</td></tr>
+          <tr><td>5</td><td></td><td><a href="#task5" style="color:var(--teal);font-weight:700">任務 5</a></td><td>用最少的工具做出可以被測試的東西</td><td>🎨</td></tr>
+          <tr><td>6</td><td></td><td><a href="#task6" style="color:var(--teal);font-weight:700">任務 6</a></td><td>找真人測試，整理回饋</td><td>🔗</td></tr>
+          <tr><td>7</td><td>下學期</td><td><a href="#task7" style="color:var(--blue);font-weight:700">任務 7</a></td><td>根據回饋重新設計，更深一層</td><td>🔗→🎨</td></tr>
+          <tr><td>8</td><td></td><td><a href="#task8" style="color:var(--blue);font-weight:700">任務 8</a></td><td>讓方案準備好被全校師生看見</td><td>⚡</td></tr>
+          <tr><td>9</td><td></td><td><a href="#task9" style="color:var(--blue);font-weight:700">任務 9</a></td><td>學習遷移——我學到了什麼，下次怎麼用</td><td>⚡</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px;font-weight:700;color:var(--teal)">最後的成果會進入竹北實中的參與式預算票選——全校師生都可以投票，選出最想在學校落地的方案。你們做的事是真實的，不是練習。</p>
+
+      <!-- AI 公約 -->
+      <h2 class="part-title" id="ai">🤖 在開始之前：關於 AI 的約定</h2>
+      <p>這門課裡你可以用 AI——但我們需要先把一件事說清楚。</p>
+      <div class="companion-box" style="--accent:#1A3557;--bg:#E8EEF5;margin-top:16px">
+        <div class="companion-label">同行者的話</div>
+        <div class="companion-text">AI 很強，但它不是你。
+
+AI 可以幫你找資料、整理語言、想點子。但 AI 沒辦法走進竹北實中感受那個問題，沒辦法訪問你隔壁的同學問他真正的感受，也沒辦法在你們組有矛盾的時候想辦法讓大家重新合作。
+
+AI 不需要對你的學習負責，也不需要對學習的後果和道德意圖負責。但作為人類，我們的學習和我們的生涯息息相關——而只有我們能對此負責。用 AI 幫助自己學得更深、更有效率，那很好。把 AI 的答案當成你的答案，那不是學習。</div>
+      </div>
+      <div class="avoid-use" style="margin-top:16px">
+        <div class="avoid-col">
+          <div class="avoid-col-title">❌ 不能讓 AI 代替你的事</div>
+          <p>• 直接請 AI 幫你想要解決什麼問題</p>
+          <p>• 讓 AI 代替你去觀察和訪談</p>
+          <p>• 把 AI 的答案當你的答案交出去</p>
+          <p>• 組內意見不同時，靠 AI 來決定</p>
+          <p>• 讓 AI 寫你的感想與反思</p>
+        </div>
+        <div class="use-col">
+          <div class="use-col-title">✅ 可以問 AI 的情況</div>
+          <p>• 我不確定「設計思考」是什麼意思</p>
+          <p>• 其他學校有沒有解決過類似的問題？</p>
+          <p>• 我要怎麼準備一個好的訪談問句？</p>
+          <p>• 幫我把這段話說得更清楚</p>
+          <p>• 這個使用者回饋背後可能的需求是什麼？</p>
+        </div>
+      </div>
+      <div class="write-space" style="margin-top:12px">
+        <div class="write-label">我們組的 AI 公約補充（自己加的條款）：</div>
+        <div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div>
+      </div>
+
+      <!-- TASK 1 -->
+      <div id="task1" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#1A7A7A">
+          <div class="phase-card-header"><span class="phase-card-num">任務 1</span><span class="phase-card-name">🎙 心態預備：你的抱怨是有意義的</span><span class="phase-card-meta">第 1–2 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">這個任務看起來很簡單：說出一個不方便的事。但它其實是整個專題最重要的起點。因為你越在乎那個問題，你就越會想辦法解決它——而不只是為了完成任務。</p>
+        <p>在這個任務裡，你是 🎙 <strong>Storyteller</strong>——說出你真實的故事，讓組員和老師聽見。</p>
+
+        <div class="stuck-box" style="margin-top:14px">
+          <div class="stuck-label">🔍 有時候真正卡住的地方，可能在這裡</div>
+          <div class="stuck-text">有時候我們說不出「真正在乎的問題」，不是因為學校沒有問題，而是因為我們已經習慣了那些不方便。我們覺得「反正就這樣」或「說了也沒用」。但這門課想要的就是那個你覺得「說了也沒用但其實很煩」的那件事。</div>
+        </div>
+
+        <div class="companion-box" style="--accent:#C49A00;--bg:#FFF8E1;margin-top:14px">
+          <div class="companion-label">一個值得思考的區別</div>
+          <div class="companion-text">校準不是評鑑——不是要看「哪個問題說得好」。
+
+你說出來的抱怨，沒有對或不對。有人說「廁所太少」，有人說「走廊太擠」——每一個都是真實的感受，每一個都值得被認真看待。
+
+你的組員聽你說話的方式，會影響你願不願意說真話。所以：聽的時候，先別說「這個不重要」。</div>
+        </div>
+
+        <h3 style="font-size:16px;font-weight:700;color:var(--teal);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#1A7A7A">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>閉上眼睛想一分鐘：在學校裡，最近有沒有一個時刻讓你覺得「這怎麼這樣設計」？不管多小、多普通——先把它寫下來，之後再決定要不要用。</td></tr>
+            <tr><td>2</td><td>跟組員輪流說，每個人說完，其他人只說「我聽到了」——不說「這不重要」也不說「我也這樣覺得」。先讓每個人的感受被完整說出來。</td></tr>
+            <tr><td>3</td><td>討論：哪個問題讓你們最有感？不一定是最大的，而是讓你們最想知道「為什麼會這樣」的那個。</td></tr>
+            <tr><td>4</td><td>把「抱怨」翻譯成「問題方向」：試著用「我們如何能讓＿＿的＿＿變得更＿＿？」這個句型，先練習一次（不需要完美）。</td></tr>
+            <tr><td>5</td><td>可以問 AI：「設計思考是什麼？可以用一個學校問題走一遍五步驟嗎？」——用 AI 的回應來理解架構，但你們要解決的問題必須是你們自己感受到的。</td></tr>
+          </tbody>
+        </table>
+
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">我說出來的那個抱怨，我真的在乎嗎？還是我覺得說它比較「安全」？</div>
+          <div class="dialogue-item">聽組員說的時候，我心裡有沒有第一秒就覺得「這沒什麼」？那個感覺在告訴我什麼？</div>
+          <div class="dialogue-item">在這門課裡，我最怕的事情是什麼？那個怕可能在保護我什麼？</div>
+        </div>
+        <div class="write-space">
+          <div class="write-label">我們組目前最有感的問題方向（暫定，可以之後調整）：</div>
+          <div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div>
+        </div>
+      </div>
+
+      <!-- TASK 2 -->
+      <div id="task2" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#2E6FAD">
+          <div class="phase-card-header"><span class="phase-card-num">任務 2</span><span class="phase-card-name">🧭 田野調查：走出去看真實的世界</span><span class="phase-card-meta">第 3–4 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">你的感覺是真實的，但感覺不等於事實。田野調查就是用真實的觀察和對話，去確認你原本的想法——有些可能是對的，有些可能完全不是你想像的那樣。</p>
+        <p>在這個任務裡，你是 🧭 <strong>Sensemaker</strong>——走出去找意義，帶回真實的資料，而不只是驗證你已經知道的事。</p>
+        <div class="companion-box" style="--accent:#2E6FAD;--bg:#E8F0F8;margin-top:14px">
+          <div class="companion-label">同行者的話</div>
+          <div class="companion-text">出發前，先把你的假設寫下來。不是因為假設一定是錯的，而是因為當你帶著假設去觀察，你才能知道「這裡跟我想的一樣」和「這裡讓我很意外」。
+
+那個「意外」，往往才是最值得深入的地方。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--blue);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#2E6FAD">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>出發前填寫假設（見下方）：我們目前對這個問題的三個猜測是什麼？不要回頭改——調查完再比較。</td></tr>
+            <tr><td>2</td><td>設計 2-3 個訪談問句。規則：不能用「是/否」回答，要具體（不要問「你覺得學校怎樣」，要問「你上一次覺得這裡不方便是什麼時候？」）。</td></tr>
+            <tr><td>3</td><td>走出去：在校園找 3-5 個真實的人，觀察或進行 5-10 分鐘的訪談。訪談時，試著只聽，不急著說你的想法。<strong>這個環節不用 AI——AI 沒有在竹北實中生活過，它不知道。</strong></td></tr>
+            <tr><td>4</td><td>回來之後整理：「我們看到了＿＿」「我們聽到了＿＿」「我們感受到了＿＿」——三類分開寫。</td></tr>
+            <tr><td>5</td><td>對比：你出發前的三個假設，和你看到/聽到的，有什麼不一樣？那個差距就是你下一步的線索。</td></tr>
+          </tbody>
+        </table>
+        <div class="avoid-use" style="margin-top:12px">
+          <div class="avoid-col"><div class="avoid-col-title">✗ 避免</div><p>「我們就說＿＿問題好了，我覺得大家都有這個問題。」（用猜測代替觀察）</p></div>
+          <div class="use-col"><div class="use-col-title">✓ 改為</div><p>「我們先出去看看，帶著假設，但準備好被推翻。」（帶著好奇心，不是確認心）</p></div>
+        </div>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">在做訪談的時候，我是在真的聽，還是在等對方說完我再說？</div>
+          <div class="dialogue-item">哪一個假設被推翻了？我對那個「被推翻」的感覺是什麼——是失落還是好奇？</div>
+          <div class="dialogue-item">整個觀察過程，什麼時候我最有「原來如此」的感覺？那個時刻發生了什麼？</div>
+        </div>
+        <div class="write-space"><div class="write-label">我們的三個調查假設（出發前填，不回頭改）：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+        <table class="action-table" style="--accent:#2E6FAD;margin-top:12px">
+          <thead><tr><th>我們看到了</th><th>我們聽到了</th><th>我們感受到了</th></tr></thead>
+          <tbody><tr><td style="height:80px"></td><td></td><td></td></tr></tbody>
+        </table>
+      </div>
+
+      <!-- TASK 3 -->
+      <div id="task3" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#E87A2E">
+          <div class="phase-card-header"><span class="phase-card-num">任務 3</span><span class="phase-card-name">💡 問題定義：用一句話說清楚</span><span class="phase-card-meta">第 5–6 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">好的問題定義是整個專題的核心。問題太大會做不完，問題太小沒有意義。這個任務是找到那個「剛剛好」——夠具體、跟真實使用者有關、在這學期可以動手做。</p>
+        <p>在這個任務裡，你從 🧭 Sensemaker 轉換成 🎨 <strong>Designer</strong>——開始從意義建構走向設計行動。</p>
+        <div class="stuck-box" style="margin-top:14px">
+          <div class="stuck-label">🔍 有時候真正卡住的地方，可能在這裡</div>
+          <div class="stuck-text">很多組在這個任務卡住，不是因為不知道問題是什麼，而是因為每個人心裡想的問題稍微不一樣。這很正常——但如果沒有說清楚，後面做出來的東西就會莫名其妙地往不同方向走。趁現在把不一樣的地方說清楚。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--orange);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#E87A2E">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>根據田野調查的發現，每個人獨自寫三個 How Might We 問句（「我們如何能讓＿＿的＿＿變得更＿＿？」），不討論。寫完之後輪流分享。</td></tr>
+            <tr><td>2</td><td>討論：哪一個問句最讓你們想說「對對對，就是這個」？哪一個讓你想問「但這真的是最根本的問題嗎」？</td></tr>
+            <tr><td>3</td><td>製作使用者同理地圖：這個問題的主要使用者是誰？他們說了什麼、做了什麼、感受到什麼、真正需要的是什麼？</td></tr>
+            <tr><td>4</td><td>完成問題陳述：「＿＿（使用者）需要一個方法來＿＿（問題），因為他們＿＿（真正的需求）。」</td></tr>
+            <tr><td>5</td><td>組內最後確認：每個人對這個問題陳述都有「我也在乎這件事」的感覺嗎？如果有人還不確定，先聊一聊。</td></tr>
+          </tbody>
+        </table>
+        <div class="avoid-use" style="margin-top:12px">
+          <div class="avoid-col"><div class="avoid-col-title">✗ 避免</div><p>「先決定做什麼，問題之後再說。」（跳過問題定義，直接進入解方）</p></div>
+          <div class="use-col"><div class="use-col-title">✓ 改為</div><p>「先把問題說清楚，再決定要做什麼。因為問題定義決定了後面所有的方向。」</p></div>
+        </div>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">這個問題真的是「他們的問題」還是「我們覺得應該要解決的問題」？有什麼差別？</div>
+          <div class="dialogue-item">組內有沒有人對問題陳述有不同意見？那個不同意見是什麼，值得繼續想嗎？</div>
+          <div class="dialogue-item">如果我要用一句話讓完全不知道這件事的人理解這個問題，我會怎麼說？</div>
+        </div>
+        <div class="write-space"><div class="write-label">我們的問題陳述（定稿）：「＿＿（使用者）需要一個方法來＿＿，因為他們＿＿。」</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      </div>
+
+      <!-- TASK 4 -->
+      <div id="task4" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#6B4FAD">
+          <div class="phase-card-header"><span class="phase-card-num">任務 4</span><span class="phase-card-name">💭 發散創意：讓想法先不被評判</span><span class="phase-card-meta">第 7–8 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">創意不是靈感，是練習。這個任務的目標不是找到最好的答案，而是讓大家都有機會說出想法，然後從這些想法裡找方向。數量優先，評判留到後面。</p>
+        <p>在這個任務裡，你是 🎨 <strong>Designer</strong>——讓想像力先走在判斷前面。</p>
+        <div class="companion-box" style="--accent:#6B4FAD;--bg:#F0EBF8;margin-top:14px">
+          <div class="companion-label">同行者的話</div>
+          <div class="companion-text">最難的不是想出好點子，而是說出那個你覺得「可能很蠢」的點子。在腦力激盪裡，那些「很蠢」的想法，有時候會是讓別人想到更好方向的觸發點。
+
+所以，說出來。就算你覺得很蠢，也說出來。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--purple);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#6B4FAD">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>暖身（5 分鐘）：30 秒內每個人說出 5 種「讓人不用排隊的方法」——不管多荒謬都可以。目的是讓腦袋先動起來，打破「我要說一個好答案」的慣性。</td></tr>
+            <tr><td>2</td><td>個人靜默腦力激盪（5 分鐘）：每個人獨自寫 5 個解決方案，不討論，不看別人的。數量優先，不評判。</td></tr>
+            <tr><td>3</td><td>輪流分享：每個人把自己的想法說出來，其他人只聽，不說「這個不行」。把所有想法貼到便利貼牆或 MIRO 上。這時候可以用 AI 查找同類案例，但不讓 AI 幫你決定哪個好。</td></tr>
+            <tr><td>4</td><td>點點貼聚焦：每個人有 3 票，投給最想深入的方向。選完後，問彼此：「你為什麼選這個？」——這個問題比投票本身更重要。</td></tr>
+            <tr><td>5</td><td>選定方向，討論為什麼選這個：它能解決你們定義的核心問題嗎？在這學期可以做出一個可以被測試的東西嗎？</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">在腦力激盪中，有沒有說出我其實不確定說了會被怎麼看的想法？還是我選了「安全」的？</div>
+          <div class="dialogue-item">有沒有人的想法讓你覺得「怎麼我沒想到」？那個想法的視角是什麼？</div>
+          <div class="dialogue-item">選定方案的過程，是真的討論，還是跟著最多人選的走？</div>
+        </div>
+        <div class="write-space"><div class="write-label">我們選定的方案方向，以及選這個的原因：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      </div>
+
+      <!-- TASK 5 -->
+      <div id="task5" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#3A8A4A">
+          <div class="phase-card-header"><span class="phase-card-num">任務 5</span><span class="phase-card-name">🛠 Prototype 製作：讓想法可以被摸到</span><span class="phase-card-meta">第 9–10 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">Prototype 不是成品，不需要完美。它的任務是讓別人能夠摸到、感受到、使用到你的想法，然後告訴你哪裡需要改。做出來，比想清楚更重要。</p>
+        <p>在這個任務裡，你是 🎨 <strong>Designer</strong> 和 🔗 <strong>Connector</strong>——設計東西，同時開始連結使用者的真實需求。</p>
+        <div class="stuck-box" style="margin-top:14px">
+          <div class="stuck-label">🔍 有時候真正卡住的地方，可能在這裡</div>
+          <div class="stuck-text">很多人會卡在「這個做出來不夠好」。但問題是：你做出來之前，你根本不知道哪裡不好。先做一個粗糙的，再根據使用者的反應改——這才是設計思考的邏輯。完美的計畫不如可以被摸到的東西。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--green);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#3A8A4A">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>先決定 prototype 的形式：實體物件、空間配置模型、App 介面草圖、流程海報……選一個這堂課裡能做出來的形式。</td></tr>
+            <tr><td>2</td><td>用你手邊有的材料開始做：紙板、便利貼、彩色筆就夠了。不需要印刷、不需要精緻。</td></tr>
+            <tr><td>3</td><td>做到第 30 分鐘的時候暫停，問組員：「如果一個完全不知道背景的人看到這個東西，他能理解這是在解決什麼問題嗎？」</td></tr>
+            <tr><td>4</td><td>AI 在這裡可以幫你：查找同類問題的設計案例——但 prototype 本身要你們親手做。</td></tr>
+            <tr><td>5</td><td>準備 30 秒說明：「這個東西解決了＿＿問題，使用者是＿＿，使用方式是＿＿。」說的是使用者的體驗，不是說你有多努力。</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">在組員之間，有沒有人一直在做，有沒有人一直在看？那個不平衡是什麼原因？</div>
+          <div class="dialogue-item">在製作的過程中，有沒有一個「原來這樣不行」的時刻？那個發現是什麼？</div>
+          <div class="dialogue-item">如果給你再多三天，你最想改進的地方是什麼？那個地方現在做得夠好嗎？</div>
+        </div>
+        <p style="font-weight:700;color:var(--teal);margin-top:16px">製作中途 Check-in（第 30 分鐘填）：</p>
+        <table class="action-table" style="--accent:#3A8A4A">
+          <thead><tr><th>我們現在做到哪裡了？</th><th>我們卡在哪裡？</th></tr></thead>
+          <tbody><tr><td style="height:60px"></td><td></td></tr></tbody>
+        </table>
+      </div>
+
+      <!-- TASK 6 -->
+      <div id="task6" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#1A7A7A">
+          <div class="phase-card-header"><span class="phase-card-num">任務 6</span><span class="phase-card-name">💬 第一輪測試與回饋整理</span><span class="phase-card-meta">第 11–12 堂｜上學期</span></div>
+        </div>
+        <p style="margin-top:14px">你的 prototype 是為了別人設計的，所以最重要的評審不是老師，是你的使用者。這個任務是學習「聽批評但不崩潰」——因為每個批評都是改進的線索。</p>
+        <p>在這個任務裡，你是 🔗 <strong>Connector</strong>——連結使用者的回饋和你們的設計，找出最有意義的調整方向。</p>
+        <div class="companion-box" style="--accent:#C49A00;--bg:#FFF8E1;margin-top:14px">
+          <div class="companion-label">一個值得思考的區別</div>
+          <div class="companion-text">校準不是評鑑——不是要評斷「這個 prototype 好不好」。
+
+測試的目的是「共同看見學生的學習」：使用者說了什麼、你們聽到了什麼、那個聽見讓你們改變了什麼。
+
+收到批評的當下，先忍住想解釋的衝動。只說「謝謝你的回饋」。等你們整理完所有回饋之後，再決定哪些要改、哪些不改——那個決定才是你的。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--teal);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#1A7A7A">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>找 3-5 個真實的使用者測試。在他們試用的時候：觀察，不說明——讓他們自己摸索，注意他們卡在哪裡。<strong>這個環節不用 AI——AI 沒辦法感受竹北實中真實使用者的體驗。</strong></td></tr>
+            <tr><td>2</td><td>試用後問他們：「有什麼讓你覺得不方便？」「有什麼讓你覺得有意思？」「如果你每天都要用，你最想改什麼？」</td></tr>
+            <tr><td>3</td><td>整理回饋：「有用的批評」（幫助你改進設計）vs.「感覺性反應」（對方的個人偏好）。兩種都值得記錄，但處理方式不同。</td></tr>
+            <tr><td>4</td><td>做「改/不改決策」：針對每一個回饋，說明你們決定改還是不改，以及原因。兩種決定都要說清楚——AI 可以幫你分析使用者需求背後的邏輯，但決定要你們自己做。</td></tr>
+            <tr><td>5</td><td>上學期收尾：每組說一件「如果下學期可以改，最想改的是什麼」——這不是終點，是下學期的起點。</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">收到批評的當下，我的身體有什麼反應？那個反應在告訴我什麼？</div>
+          <div class="dialogue-item">我們的「不改」決定，是根據使用者需求，還是根據「改起來太麻煩」？</div>
+          <div class="dialogue-item">上學期整個走下來，讓我覺得最有成就感的一個時刻是什麼？</div>
+        </div>
+        <table class="action-table" style="--accent:#1A7A7A;margin-top:12px">
+          <thead><tr><th>使用者說了什麼</th><th>改 / 不改</th><th>原因（用你們自己的判斷）</th></tr></thead>
+          <tbody>
+            <tr><td style="height:50px"></td><td></td><td></td></tr>
+            <tr><td style="height:50px"></td><td></td><td></td></tr>
+            <tr><td style="height:50px"></td><td></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 寒假橋接 -->
+      <div id="bridge" class="callout" style="--icon-bg:#1A3557;--body-bg:#E8EEF5;margin:40px 0 20px">
+        <div class="callout-icon">☃</div>
+        <div class="callout-body">
+          <p><strong>寒假之後，你還記得嗎？</strong></p>
+          <p>兩個月後，你打開這本手冊，翻到這一頁。在開始下學期之前，先回答這三個問題。不用很長，一句話就夠。</p>
+        </div>
+      </div>
+      <div class="write-space"><div class="write-label">上學期我們要解決的問題是：</div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <div class="write-space"><div class="write-label">我們做的 prototype 是什麼？最讓我印象深刻的一個使用者回饋是：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <div class="write-space"><div class="write-label">如果下學期只能改一件事，我最想改的是：</div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <p style="color:var(--gray);font-style:italic;margin-top:8px">帶著這三個答案，繼續往前走。</p>
+
+      <!-- TASK 7 -->
+      <div id="task7" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#2E6FAD">
+          <div class="phase-card-header"><span class="phase-card-num">任務 7</span><span class="phase-card-name">🔄 迭代深化：帶著新的視角重新看</span><span class="phase-card-meta">第 13–14 堂｜下學期</span></div>
+        </div>
+        <p style="margin-top:14px">你帶著上學期的問題和回饋回來了。這次不是從頭開始——是帶著已經走過一遍的經驗，再深入一層。</p>
+        <p>在這個任務裡，你從 🔗 Connector 轉換成 🎨 Designer 再轉換成 ⚡ <strong>Changemaker</strong>——準備讓方案真正發生。</p>
+        <div class="companion-box" style="--accent:#2E6FAD;--bg:#E8F0F8;margin-top:14px">
+          <div class="companion-label">同行者的話</div>
+          <div class="companion-text">迭代不是「重做一遍」，是「帶著新的理解重新看」。
+
+上學期做的第一版，讓你看到了很多在設計時沒想到的事。現在，帶著那些「沒想到」，重新問：我真正要解決的，是什麼？</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--blue);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#2E6FAD">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>開場重連接（用寒假橋接那三頁）：每組說出上學期最重要的一個發現和這學期的改進方向。</td></tr>
+            <tr><td>2</td><td>填寫迭代決策框架（見下方）：「原本我們以為＿＿，現在我們發現＿＿，所以我們決定＿＿。」每個改動都要填一次。</td></tr>
+            <tr><td>3</td><td>如果需要：重新訪談使用者。這次帶著更精準的問題去。<strong>這個環節不用 AI。</strong></td></tr>
+            <tr><td>4</td><td>AI 在這裡可以幫你：分析使用者需求的邏輯、查找改進方向的參考案例——但迭代的決策要你們自己做。</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">寒假後回來，我對這個問題的感覺和上學期一樣嗎？如果有變，變在哪裡？</div>
+          <div class="dialogue-item">迭代的決策是根據使用者的真實需求，還是根據「比較容易做」？</div>
+          <div class="dialogue-item">有沒有人在說「反正差不多就好了」——那個話背後是疲憊還是放棄了？</div>
+        </div>
+        <table class="action-table" style="--accent:#2E6FAD;margin-top:12px">
+          <thead><tr><th>原本我們以為……</th><th>現在我們發現……</th><th>所以我們決定……</th></tr></thead>
+          <tbody>
+            <tr><td style="height:60px"></td><td></td><td></td></tr>
+            <tr><td style="height:60px"></td><td></td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- TASK 8 -->
+      <div id="task8" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#E87A2E">
+          <div class="phase-card-header"><span class="phase-card-num">任務 8</span><span class="phase-card-name">🌍 真實落地：讓全校師生看見你們的方案</span><span class="phase-card-meta">第 15–16 堂｜下學期</span></div>
+        </div>
+        <p style="margin-top:14px">你的方案要進入竹北實中的參與式預算票選了。你需要讓一個對背景完全不熟悉的人，在三分鐘之內理解你們要解決什麼問題，以及為什麼值得支持。</p>
+        <p>在這個任務裡，你是 ⚡ <strong>Changemaker</strong> 和 🎙 <strong>Storyteller</strong>——讓方案發生，並且說出那個故事。</p>
+        <div class="stuck-box" style="margin-top:14px">
+          <div class="stuck-label">🔍 有時候真正卡住的地方，可能在這裡</div>
+          <div class="stuck-text">最容易發生的事：展示材料是為了「讓人覺得我們很厲害」，而不是「讓人理解使用者的問題」。記得，你是在代表使用者說話，不是在說你有多努力。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--orange);margin:20px 0 10px">✦ 三分鐘說明框架（Storyteller 的四步驟）</h3>
+        <table class="action-table" style="--accent:#E87A2E">
+          <thead><tr><th>#</th><th>說明要點</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>問題是什麼？——說具體的，不要說「讓學校更好」。說「每天午休，有多少人要排隊等多少分鐘」。</td></tr>
+            <tr><td>2</td><td>使用者是誰？他們有什麼感受？——說一個真實的使用者故事（可以匿名）。</td></tr>
+            <tr><td>3</td><td>我們的方案是什麼？使用者怎麼使用它？——說使用的動作，不是說設計的邏輯。</td></tr>
+            <tr><td>4</td><td>如果這個方案落地，最直接的改變是什麼？——說具體的、可以被看到的改變。</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">展示材料是為了「讓人理解」，還是為了「讓人覺得我們很厲害」？</div>
+          <div class="dialogue-item">如果一個不知道背景的人看你們的展示，他能理解這個方案在解決什麼嗎？</div>
+          <div class="dialogue-item">在全校面前展示一個還不完美的東西，我心裡的感覺是什麼？那個感覺在告訴我什麼？</div>
+        </div>
+        <div class="write-space"><div class="write-label">我們的三分鐘說明草稿（用四步驟框架來寫）：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      </div>
+
+      <!-- TASK 9 -->
+      <div id="task9" style="margin-top:40px">
+        <div class="phase-card" style="--accent:#3A8A4A">
+          <div class="phase-card-header"><span class="phase-card-num">任務 9</span><span class="phase-card-name">🌱 學習遷移：我學到了什麼，下次怎麼用</span><span class="phase-card-meta">第 17–18 堂｜下學期</span></div>
+        </div>
+        <p style="margin-top:14px">這學年快結束了。在你寫這個任務之前，先深呼吸一下——不是為了考試，是為了讓自己真正意識到這一年走了什麼路。</p>
+        <p>在這個任務裡，你回到 🎙 <strong>Storyteller</strong>——說出你自己的學習故事，給未來的自己聽。</p>
+        <div class="companion-box" style="--accent:#3A8A4A;--bg:#E8F4EA;margin-top:14px">
+          <div class="companion-label">同行者的話</div>
+          <div class="companion-text">學習遷移不是說「我學到了設計思考」這麼空泛的事。
+
+它是說：「下次我遇到一個不知道怎麼辦的問題，我知道我可以先去觀察、先去問、先做一個粗糙的東西讓別人試用——然後根據回饋再調整。」
+
+那個「知道怎麼做」，就是這一年最重要的東西。</div>
+        </div>
+        <h3 style="font-size:16px;font-weight:700;color:var(--green);margin:20px 0 10px">✦ 可以試試看的行動</h3>
+        <table class="action-table" style="--accent:#3A8A4A">
+          <thead><tr><th>#</th><th>行動</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>學習遷移練習：設計思考的五個步驟（同理、定義、發想、製作、測試），在你生活的其他地方，有沒有可以用到的情境？各寫一個具體的例子——不是「以後遇到問題會想到設計思考」，而是「我在哪個具體情境會用到哪個具體步驟」。</td></tr>
+            <tr><td>2</td><td>跟組員說：「這學年，讓我最感謝你的一件事是＿＿。」說一件真實的、具體的事——不是客套話。</td></tr>
+            <tr><td>3</td><td>寫給高一剛開始這門課的自己一句話：如果你可以在第一堂課對那個剛坐下來的你說一件事，你會說什麼？</td></tr>
+          </tbody>
+        </table>
+        <div class="dialogue-box">
+          <div class="dialogue-title">🌿 跟自己對話的問句</div>
+          <div class="dialogue-item">這學年，最讓我意外的一個發現是什麼？那個意外改變了我對什麼的看法？</div>
+          <div class="dialogue-item">「勇氣、堅持、毅力、修復力」這四個詞，哪一個這學年對我來說最難？最難的那次是什麼情況？</div>
+          <div class="dialogue-item">下次遇到一個沒有標準答案的問題，我會先做什麼？</div>
+        </div>
+      </div>
+
+      <!-- 學年末反思 -->
+      <h2 class="part-title" id="final">🌿 這學年結束了</h2>
+      <p>在你寫這一頁的時候，試著誠實——不是寫老師想看到的，是寫你真的感受到的。</p>
+      <div class="write-space"><div class="write-label">這學年，最讓我意外的一個時刻是：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <div class="write-space"><div class="write-label">在「勇氣、堅持、毅力、修復力」裡，練習最多的一個是＿＿，那個最難的一次是：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <div class="write-space"><div class="write-label">在組內，有沒有一個時刻讓我感覺「我們真的是一個團隊，相互需要彼此」？那個時刻是：</div><div class="write-lines"></div><div class="write-lines"></div><div class="write-lines"></div></div>
+      <div class="write-space"><div class="write-label">如果可以對高一剛開始這門課的自己說一句話，我會說：</div><div class="write-lines"></div><div class="write-lines"></div></div>
+
+      <p style="font-weight:700;color:var(--navy);margin:24px 0 12px">學年前後，給自己一個評分（1 = 還完全不知道怎麼做  ／  5 = 我覺得我真的會了）：</p>
+      <table class="sixc-table">
+        <thead><tr><th>能力</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th><th style="text-align:center">4</th><th style="text-align:center">5</th></tr></thead>
+        <tbody>
+          <tr><td>從觀察到提出清楚的問題（Sensemaker）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>說出真實感受，不說好聽的話（Storyteller）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>遇到失敗後繼續試下去（品格—修復力）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>在組裡讓每個人都被聽到（協作—相互依存）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>把大想法變成可以被測試的小東西（Designer）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>根據真實回饋調整我的作品（Connector）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+          <tr><td>把學到的東西用在其他地方（學習遷移）</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td><td style="text-align:center">○</td></tr>
+        </tbody>
+      </table>
+
+      <div class="companion-box" style="--accent:#1A3557;--bg:#E8EEF5;margin-top:32px">
+        <div class="companion-label">謝謝你這學年的投入</div>
+        <div class="companion-text">不管你覺得自己做得怎麼樣，你走過了真實的九個任務，做了一個真正被放進竹北實中的方案。那件事是真實的，是你做的。
+
+「校準不是評鑑，而是透過集體探究歷程，建立對學習的深度理解。」——這學年，你和你的組員就是這樣一起走過來的。
+
+下一次遇到不知道怎麼辦的事，記得你有走過這條路的經驗。🌿</div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-info">
+        <div class="footer-title">📗 學生自學手冊 v3｜校準實踐版</div>
+        <div class="footer-meta">竹北實中｜高一校必專題課程｜跨學期 18 堂｜2026</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首頁</a>
+        <a href="teacher.html">教師手冊</a>
+      </div>
+    </div>
+    <div class="footer-credit">課程設計：陳廷瑜 × Claude Sonnet 4.6｜校準實踐框架參考：陳佩英教授《素養導向課程設計校準實踐工作手冊》2026</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
